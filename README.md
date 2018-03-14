@@ -15,3 +15,10 @@ o
 ```sh
 ./generate_diagram.py
 ```
+
+## Recomendaciones:
+- Los campos de dependencias deben estar separados por " / "
+por ejemplo: Persona / Organizacion
+- Los nombres de las dependencias deben buscarse en el archivo
+para saber si existen, el nombre preferido es "Proyecto Curricular",
+por sobre "proyecto curricular".
