@@ -10,11 +10,11 @@ u1.attr(size='126,6')
 u1.node_attr.update(color='lightblue2', style='filled')
 
 u2 = Digraph('incumbencias', filename='incumbencias.gv')
-u2.attr(size='26,6')
+u2.attr(size='126,6')
 u2.node_attr.update(color='lightblue2', style='filled')
 
 u3 = Digraph('resumen', filename='resumen.gv')
-u3.attr(size='26,6')
+u3.attr(size='200')
 u3.node_attr.update(color='lightblue2', style='filled')
 
 in_df = pandas.read_csv('incumbencias.csv', sep = ',')
